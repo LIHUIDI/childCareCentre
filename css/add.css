@@ -1,0 +1,171 @@
+html, body, div, span, applet, object, iframe, h1, h2, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead,  th {
+    border: 0 none;
+	font: 100% arial,helvetica,clean,sans-serif;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    vertical-align: baseline;
+
+}
+/*This is for add page*/
+#add-fmaily
+{
+padding-top:10px;
+padding-bottom:10px;
+padding-right:5px;
+padding-left:20px;
+border-bottom:1px dashed red;
+}
+#add
+{width:90%;
+margin-left:40px;
+margin-top:30px;
+margin-bottom:0px;
+border:1px dashed red
+
+}
+#add-fmaily table
+{
+border-collapse:collapse;
+}
+#add-fmaily table td
+{
+
+padding: 6px;
+border-color:#CC3366;
+font-size:0.9em;
+}
+
+#add-child
+{
+padding-top:10px;
+padding-bottom:10px;
+padding-right:5px;
+padding-left:20px;
+border-bottom:1px dashed red;
+}
+#add-child table
+{
+border-collapse:collapse;
+}
+#add-child table td
+{
+padding: 6px;
+border-color:#CC3366;
+font-size:0.9em;
+}
+#add-payment
+{
+padding-top:10px;
+padding-bottom:10px;
+padding-right:5px;
+padding-left:20px;
+border-bottom:1px dashed red;
+}
+#add-payment table
+{
+border-collapse:collapse;
+}
+#add-payment table td
+{
+padding: 6px;
+border-color:#CC3366;
+font-size:0.9em;
+}
+#add-subject
+{
+padding-top:10px;
+padding-bottom:10px;
+padding-right:5px;
+padding-left:20px;
+
+}
+#add-subject table
+{
+border-collapse:collapse;
+}
+#add-subject table td
+{
+padding: 6px;
+border-color:#CC3366;
+font-size:0.9em;
+}
+
+/*This is for update page*/
+#update
+{width:90%;
+margin-left:40px;
+margin-top:30px;
+margin-bottom:0px;
+border:1px dashed red
+
+}
+#updateFamily
+{
+width:90%;
+margin-left:43px;
+margin-top:0px;
+padding-top:30px;
+padding-bottom:20px;
+padding-right:5px;
+padding-left:5px;
+border-bottom:1px dashed red;
+
+}
+#updateFamily table
+{
+border-collapse:collapse;
+
+}
+#updateFamily table td
+{
+border:0px solid black;
+padding: 8px;
+border-color:#CC3366;
+font-size:0.9em;
+}
+
+#updateMedicine
+{
+width:90%;
+margin-left:40px;
+padding-top:20px;
+padding-bottom:20px;
+padding-right:5px;
+padding-left:5px;
+border-bottom:1px dashed red;
+
+}
+#updateMedicine table
+{
+border-collapse:collapse;
+}
+#updateMedicine table td
+{
+
+padding: 8px;
+border-color:#CC3366;
+font-size:0.9em;
+}
+#updateAllergies
+{
+width:90%;
+margin-left:40px;
+padding-top:20px;
+padding-bottom:20px;
+padding-right:5px;
+padding-left:5px;
+
+
+}
+#updateAllergies table
+{
+border-collapse:collapse;
+}
+#updateAllergies table td
+{
+
+padding: 8px;
+border-color:#CC3366;
+font-size:0.9em;
+}

@@ -1,0 +1,358 @@
+html, body, div, span, applet, object, iframe, h1, h2, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead,  th {
+    border: 0 none;
+	font: 100% arial,helvetica,clean,sans-serif;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    vertical-align: baseline;
+
+}
+#body{
+background-color:#BBBBBB;
+}
+ #wrapper {
+  position: relative;
+  width: 960px;
+  min-height: 400px;
+  margin: 0 auto;
+  background-color:#FFFFFF;
+}
+
+/*this is header style*/
+#pa-header{
+	height: 150px;
+	
+	min-width: 960px;
+}
+
+#pa-header-logo{
+	padding-left: 80px;
+	height: 28px;
+	padding-top:40px;
+	float:left;
+}
+#life-pic3{
+float:right;
+margin:100px 30px 0px 650px;  
+position:absolute;
+}
+#pa-searhInput{
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 2px 2px 3px #666;
+	-webkit-box-shadow: 2px 2px 3px #666;
+	-webkit-box-shadow: 2px 2px 3px #666;
+	box-shadow: 2px 2px 3px #666;
+	font-size: 13px;
+	outline: 0;
+	-webkit-appearance: none;
+	width: 300px;
+	height: 21px;
+	border: 1px solid black;
+}
+
+.pa-seachbutton {
+    background: url("./images/gradient.jpg") repeat scroll 0 0 transparent;
+    -moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 2px 2px 3px black;
+	-webkit-box-shadow: 2px 2px 3px black;
+	box-shadow: 2px 2px 3px black;
+	font-size: 14px;
+	color:#4A4A4A;
+	outline: 0;
+	-webkit-appearance: none;
+    	font-weight: bold;
+    	height: 26px;
+	width: 60px;
+	left:305px;
+	paddingtop:2px;
+	top: 3px;
+}
+
+#centreName
+{
+	float: left;
+	padding-left:14px;
+    padding-top: 90px;
+	text-align:left;
+	font-size: 1.5em;
+	font-weight:900;
+	
+	
+}
+#centerName a{
+text-decoration: none;
+color:#670a30;
+
+}
+#centreName a:hover {
+    border-bottom: 2px solid #38051a;
+    color: #DC143C;
+    margin-bottom: 0;
+	z-index:+1;
+}
+
+
+#pa-header-navbar{
+	position:absolute;
+	right: 80px;
+	padding-top: 30px;
+}
+
+
+#pa-header-navbar li, #pa-footer-navbar li{
+    background: none repeat scroll 0 0 transparent;
+    float: left;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+
+#pa-header-navbar li a{
+    color: #670a30;
+    float: left;
+    font-size: 1.0em;
+	font-weight:700;
+    line-height: 25px;
+    margin-bottom: 1px;
+    padding: 0 1em;
+    text-decoration: none;
+}
+#pa-header-navbar li a:hover {
+    border-bottom: 2px solid #38051a;
+    color: #DC143C;
+    margin-bottom: 0;
+}
+#welcome-msg{
+  float:right;
+  margin-top:130px;
+  margin-right:50px;
+  text-align:right;
+  font-size:0.9em;
+  color:#670a30;
+  text-decoration: none;
+  
+}
+#welcome-msg a{
+color:#670a30;
+  text-decoration: none;
+}
+#welcome-msg a:hover{
+    border-bottom: 1px solid #38051a;
+    color: #DC143C;
+    
+}
+/*this is for action part, search, add and update icon*/
+.action{	
+	top:215px;
+	padding-left:30px;
+	position: absolute;
+	width:90%;
+}
+.pa-table-filter{
+	float:left;
+	margin-right:5px;
+	text-align:left;
+	font-size:0.9em;
+	font-weight: bold;
+	color:#CC3366;
+	padding-bottom:10px;
+}
+.pa-table-filter input{
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	-moz-box-shadow: 1px 1px 1px 1px;
+	-webkit-box-shadow: 1px 1px 1px 1px;
+	box-shadow: 1px 1px 1px 1px;	
+	outline: 0;
+	-webkit-appearance: none;
+}
+.pa-table-searchbar{
+	padding-top:15px;
+	
+	float:left;
+}
+.pa-table-filter-page{
+	float:right;
+	clear:right;
+	padding-right:30px;
+	padding-top:15px;
+	font-size:0.9em;
+	font-weight: bold;
+	color:#104E8B;
+}
+.pa-table-operations{
+float:left;
+margin-left:100px;
+padding-left:10px;
+padding-top:15px;
+padding-right:0px;
+width:120px;
+}
+.pa-table-operations-element{
+	margin-left:5px;
+	float:left;
+}
+
+/*this is main content and main caption style*/
+#pa-content-main{
+	float:left;
+	width:960px;  
+    margin:50px auto 0px auto;
+	
+	min-width: 900px;
+	outline: 0;
+	-webkit-appearance: none;
+    font-weight: bold;
+	position: relative;
+	padding-top:0px;
+}
+.pa-table{
+    border-collapse:collapse;
+	width:100%;
+}
+
+
+
+/*this is login and registation form style*/
+
+#login-form,#registation-form{
+    float:left;
+	width:500px;
+	margin:50px 50px 100px 100px;  
+    height:150px;  
+    padding:5px 0px 0px 230px;
+    border: 0px;  
+	position:absolute;
+    text-align:left;  
+    text-shadow: 1px 1px 1px #FFFFFF;
+	color:#670a30;
+	
+	
+	font-size: 15px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	
+	
+	
+	}
+#login-form a:hover{
+    color: #DC143C;
+}
+#registation-form a:hover{
+color: #DC143C;
+}
+
+#context,#context2{
+margin:200px 50px 10px 100px;
+float:left;
+padding:8px 0px 5px 0px;
+width:700px;
+letter-spacing:1px; 
+color: #eb2f7d; 
+}
+
+#pa-pic{
+width:330px;
+height:240px;
+margin:0px 50px 0px 300px;
+float:left;
+-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-appearance: none;
+	border:1px solid black;
+}
+
+#context p,#context2 p{
+font-family:Arial, Helvetica, sans-serif;  
+    line-height:30px;  
+    font-size:18px;  
+    text-align:justify;  
+    line-height:20px;  
+    margin:0 0 10px 0;
+    
+}
+
+#context h2,#context2 h3{
+margin:5px 0px 8px 0px; 
+font-family:Arial, Helvetica, sans-serif;  
+font-weight:400;  
+font-size:20px;
+    text-align:center;  
+    letter-spacing:1px;             
+    line-height:20px;  
+}
+
+
+
+
+/*this is footer style*/
+#pa-footer{
+	clear:both;	
+	margin-top:400px;
+	
+	height:200px;
+	width:auto;
+	min-width: 1200px;
+}
+#pa-footer-address-abn{
+	float: left;
+	padding-left:14px;
+    padding-top: 70px;
+	text-align:left;
+	font-size: 0.9em;
+	color:#670a30;
+	
+}
+#pa-footer-aboutPCCC{
+	float:right;
+	position:absolute;
+	margin-top:30px;
+	padding-top:0px;
+	padding-bottom:0px;
+	margin-bottom:0px;
+	padding-left:700px;
+	height:120px;
+	z-index:+1;	
+}
+#pa-footer-logo{
+	padding-top:38px;
+	padding-left:40px;
+	float:left;
+	z-index:-1;
+}
+#pa-footer-navbar{
+    float:left;
+	padding-left:40px;
+	
+    padding-top: 0px;
+	margin-top:150px;
+	margin-left:50px;
+	position:absolute;
+	text-align:left;
+	font-size: 0.9em;
+	color:#670a30;
+	border-top:1px solid #666666;
+	Z-index:+1;
+
+}
+#pa-footer-navbar li a{
+    color: #670a30;
+    float: right;
+    font-size: 0.9em;
+    line-height: 25px;
+    margin-bottom: 1px;
+    padding: 0 1em;
+    text-decoration: none;
+}
+#pa-footer-navbar li a:hover {
+    border-bottom: 2px solid #38051a;
+    color: #DC143C;
+    margin-bottom: 0;
+}
+
